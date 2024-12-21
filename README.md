@@ -1,22 +1,23 @@
 # BLOGNarsys
 
-A modern blog application built with Next.js, featuring dark mode, authentication, and CRUD operations. This application uses the GoRest API for data management.
+A blog application built with Next.js, featuring dark mode, authentication, and CRUD operations. This application uses the GoRest API for data management.
+
+## 🚀 Live Demo
+
+Check out the live application: [BLOGNarsys](https://next-synapsis-challenge.vercel.app/)
 
 ## 🚀 Features
 
-- ✨ Modern UI with Ant Design
+- ✨ UI with Ant Design
 - 🌓 Dark/Light mode support
 - 🔐 Token-based authentication
 - 📝 CRUD operations for blog posts
-- 🔍 Search functionality
-- ♾️ Infinite scroll
 - 📱 Responsive design
 
 ## 🛠️ Tech Stack
 
 - Next.js 13
-- TypeScript
-- Ant Design
+- Ant Design 5
 - Tailwind CSS
 - React Query
 - Axios
@@ -27,7 +28,7 @@ A modern blog application built with Next.js, featuring dark mode, authenticatio
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/bagusyatma/next-synapsis-challenge.git
 ```
 
 2. Install dependencies:
