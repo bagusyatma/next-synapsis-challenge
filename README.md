@@ -1,40 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BLOGNarsys
 
-## Getting Started
+A modern blog application built with Next.js, featuring dark mode, authentication, and CRUD operations. This application uses the GoRest API for data management.
 
-First, run the development server:
+## 🚀 Features
+
+- ✨ Modern UI with Ant Design
+- 🌓 Dark/Light mode support
+- 🔐 Token-based authentication
+- 📝 CRUD operations for blog posts
+- 🔍 Search functionality
+- ♾️ Infinite scroll
+- 📱 Responsive design
+
+## 🛠️ Tech Stack
+
+- Next.js 13
+- TypeScript
+- Ant Design
+- Tailwind CSS
+- React Query
+- Axios
+- JS-Cookie
+
+## 🚦 Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🔑 Authentication
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+To use this application, you'll need a GoRest API token:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Visit [GoRest](https://gorest.co.in/)
+2. Generate your access token
+3. Use the token when logging into the application
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📁 Project Structure
 
-## Learn More
+src/
 
-To learn more about Next.js, take a look at the following resources:
+├── common/ # Common utilities and constants
+├── components/ # Reusable components
+├── context/ # Context providers
+├── pages/ # Main pages
+|-- styles/ # Global styles
+|-- theme/ # Theme configuration
+|-- utils/ # Utility functions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Environment Variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+No environment variables are required as the application uses client-side token storage.
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is open source and available under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
